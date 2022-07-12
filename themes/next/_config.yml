@@ -358,7 +358,7 @@ codeblock:
   highlight_theme: normal
   # Add copy button on codeblock
   copy_button:
-    enable: false
+    enable: true
     # Show text copy result.
     show_result: false
     # Available values: default | flat | mac
@@ -501,9 +501,9 @@ math:
 
   # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.
   mathjax:
-    enable: false
-    # See: https://mhchem.github.io/MathJax-mhchem/
-    mhchem: false
+    enable: true
+    per_page: true
+    cdn: cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
   # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin) required for full Katex support.
   katex:
