@@ -1,11 +1,12 @@
 ---
 title: 从一道题看CPU底层优化
+mathjax: true
 date: 2022-07-12 15:31:52
 tags:
 - 底层优化
 - 硬件原理
 - 技巧
-mathjax: true
+categories
 - 计算机
 - 硬件
 ---
