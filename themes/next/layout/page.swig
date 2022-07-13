@@ -2,6 +2,8 @@
 {% import '_macro/sidebar.swig' as sidebar_template with context %}
 
 {% block title %}
+
+
   {%- set page_title_suffix = ' | ' + title %}
 
   {%- if page.type === 'categories' and not page.title %}
@@ -10,9 +12,13 @@
     {{- __('title.tag') + page_title_suffix }}
   {%- elif page.type === 'schedule' and not page.title %}
     {{- __('title.schedule') + page_title_suffix }}
+  {% elif page.type === 'links' and not page.title %}
+    {{ __('title.links') + page_title_suffix }}
+
   {%- else %}
     {{- page.title + page_title_suffix }}
   {%- endif %}
+
 {% endblock %}
 
 {% block class %}page posts-expand{% endblock %}
@@ -53,7 +59,9 @@
               {{ list_categories() }}
             </div>
           </div>
-        {% elif page.type === 'schedule' %}
+        {% elif page.type === 'links' %}
+          {% include 'links.swig' %}
+              {% elif page.type === 'schedule' %}
           <div class="event-list">
           </div>
           {% include '_scripts/pages/schedule.swig' %}

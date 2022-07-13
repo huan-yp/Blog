@@ -5,6 +5,7 @@ title:
   category: 分类
   tag: 标签
   schedule: 日程表
+  
 menu:
   home: 首页
   archives: 归档
@@ -14,6 +15,7 @@ menu:
   search: 搜索
   schedule: 日程表
   sitemap: 站点地图
+  links: 友链
   commonweal: 公益 404
 sidebar:
   overview: 站点概览

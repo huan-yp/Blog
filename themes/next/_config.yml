@@ -123,7 +123,7 @@ menu:
   categories: /categories/ || th
   archives: /archives/ || archive
   schedule: /schedule/ || calendar
-  sitemap: /sitemap.xml || sitemap
+  links: /links/ || link
   #commonweal: /404/ || heartbeat
 
 # Enable / Disable menu icons / item badges.
@@ -996,3 +996,14 @@ vendors:
 css: css
 js: js
 images: images
+mylinks:
+- nickname: plate_let  #友链名称
+  site: https://platelet.top/  #友链地址
+  info: 魔法少女佳馨  #友链说明
+  avatar: ../images/platelet.jpg
+- nickname:  yijan
+  site: https://yijan.co/
+  avatar: ../images/yijan.jpg
+- nickname: An_Account
+  site: https://0x131cc05.github.io/
+  avatar: ../images/An_Account.jpg
