@@ -1,44 +1,39 @@
 ---
 title: Hello World
 date: 2022/7/12
+top: true
 tags:
 - System Test
 categories:
 - System Test
 - Basic Function Test
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+在无数久的 🐦咕咕咕 后一个博客它建成了！
 
-## Quick Start
+博客主要会收录这些东西：
 
-### Create a new post
+- 自己在 OI 内外踩的坑。
+- 对一些算法的想法和理解。
+- 一些算法，技术技巧。
+- 部分学习中的笔记。
+- 曾经不会或者陌生的算法，数学，自然科学内容。
+- 对学习内容的感悟与理解。
+- 闲的没事写的科普或者技巧。
+- 生活中的一些事。
 
-``` bash
-$ hexo new "My New Post"
-```
+- 其它
 
-More info: [Writing](https://hexo.io/docs/writing.html)
+关于我自己：
 
-### Run server
+常用 ID：幻影彭，琴风幻影，huan_yp，Phantom_Peng，不过分强调大小写。
 
-``` bash
-$ hexo server
-```
+QQ：3051561876
 
-More info: [Server](https://hexo.io/docs/server.html)
+一个热爱自然科学的，有些中二的男生。
 
-### Generate static files
 
-``` bash
-$ hexo generate
-```
 
-More info: [Generating](https://hexo.io/docs/generating.html)
 
-### Deploy to remote sites
 
-``` bash
-$ hexo deploy
-```
 
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+
