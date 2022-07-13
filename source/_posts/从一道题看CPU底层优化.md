@@ -6,7 +6,7 @@ tags:
 - 底层优化
 - 硬件原理
 - 技巧
-categories
+categories:
 - 计算机
 - 硬件
 ---

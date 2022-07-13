@@ -25,7 +25,7 @@ categories:
 
 关于我自己：
 
-常用 ID：幻影彭，琴风幻影，huan_yp，Phantom_Peng，不过分强调大小写。
+常用 ID（一般不强调大小写）：幻影彭，琴风幻影，huan_yp，Phantom_Peng。
 
 QQ：3051561876
 
