@@ -119,3 +119,8 @@ search:
   field: post
   format: html
   limit: 10000
+  
+deploy:
+  type: git
+  repo: https://github.com/username/username.github.io.git
+  branch: master
