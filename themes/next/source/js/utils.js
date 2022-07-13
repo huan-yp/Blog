@@ -234,10 +234,13 @@ NexT.utils = {
     const sections = [...navItems].map(element => {
       var link = element.querySelector('a.nav-link');
       // TOC item animation navigate.
+      //line 238 is added by huan_yp
+      var target = document.getElementById(decodeURI(link.getAttribute('href')).replace('#', ''));
       link.addEventListener('click', event => {
         event.preventDefault();
-        var target = document.getElementById(event.currentTarget.getAttribute('href').replace('#', ''));
-        var offset = target.getBoundingClientRect().top + window.scrollY;
+      //  var target = document.getElementById(event.currentTarget.getAttribute('href').replace('#', ''));
+      //line 241 is the original code
+      var offset = target.getBoundingClientRect().top + window.scrollY;
         window.anime({
           targets  : document.scrollingElement,
           duration : 500,
@@ -245,7 +248,9 @@ NexT.utils = {
           scrollTop: offset + 10
         });
       });
-      return document.getElementById(link.getAttribute('href').replace('#', ''));
+      //return document.getElementById(link.getAttribute('href').replace('#', ''));
+      return target
+      //line 251 is original,line 252 works well
     });
 
     var tocElement = document.querySelector('.post-toc-wrap');
